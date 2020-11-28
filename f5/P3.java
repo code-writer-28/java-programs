@@ -1,4 +1,5 @@
 class Point{
+  //It is a method
   void Point(){
     System.out.println("CB-POINT");
   }
@@ -11,6 +12,7 @@ class Sample{
     p1.Point();
     p1.Point();
     p1.Point();
+    //point method will call with all the calling the point through point object
   }
 }
 
